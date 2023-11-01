@@ -1,0 +1,113 @@
+body {
+    background-color: #445069;
+}
+
+.features {
+    display: flex;
+    max-width: 700px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    flex: 1;
+}
+.coach {
+    background-color: #F8C4B4;
+}
+.image2 {
+    display: flex;
+    background-color: #FAEAB1;
+}
+.quote {
+    align-self: center;
+    padding: 30px;
+}
+.card-text {
+    margin-bottom: 0px;
+}
+.card-body {
+   height: 400px;
+ 
+}
+
+.services {
+    background-color: #CFFDE1;
+}
+
+.prices {
+    background-color: #F0DBDB;
+}
+.card-header {
+    background-color: #DBA39A;
+}
+.mailto {
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 15px;
+    }
+b {
+    text-decoration: none;
+    font-family: 'EB Garamond', serif;
+    font-size: 35px;
+    color: #071952;
+}
+li {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Mooli', sans-serif; 
+}
+h1 {
+    color: #071952;
+    font-family: 'EB Garamond', serif;
+}
+
+.footer {
+    display: flex;
+   
+    width: 60%;
+    margin-left: 280px;
+}
+.adress {
+   justify-content: center;
+    padding: 30px;
+    background-color: #445069;
+}
+.map {
+    justify-content: center;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;   
+}
+input {
+    width: 20%;
+    border: none;  
+}
+.message {
+    width: 50%;
+}
+
+@media all and (max-width:800px)
+{
+    .image2, .quote, .footer, .map {
+        flex-direction: column;
+        }
+        .map  {
+            margin-left: 10px;
+            width: 200px;
+        }
+}
+
+
+
